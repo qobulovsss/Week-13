@@ -20,8 +20,17 @@ for (int i = 0; i < size; i++) {
    if (input[0] == '-') {
       ptrArr[i] = nullptr;
    } else {
-
+      int value = stoi(input);
       ptrArr[i] = new int(value);
    }
 }
+int validCount = countValid((int*)ptrArr, size);
+cout << validCount << endl;
+for (int i = 0; i < size; i++) {
+if (ptrArr[i] != nullptr) {
+delete ptrArr[i];
+}
+}
+delete[] ptrArr;
+return 0;
 }
