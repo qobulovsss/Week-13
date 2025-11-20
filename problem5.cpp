@@ -40,6 +40,7 @@ for (int i = 0; i < r; i++) {
 for (int i = 0; i < r; i++) {
     delete[] ann[i];
 }
+
     delete [] ann;
     return 0;
 }

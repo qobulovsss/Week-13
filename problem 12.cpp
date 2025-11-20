@@ -24,6 +24,7 @@ int main() {
         cin >> b[i];
     }
 
+
     int* bPtr = b;
     bool result = identical(a, &bPtr, size);
 

@@ -41,7 +41,8 @@ for (int i = 0; i < m; i++) cin >> b[i];
 int* out  = new int[n + m];
 mergeSorted(a, n, b, m, out);
 cout << "Merge Sorted Array: ";
-for (int i = 0; i < n + m; i++) cout << out[i] << " ";
+
+    for (int i = 0; i < n + m; i++) cout << out[i] << " ";
     cout << endl;
     return 0;
 }

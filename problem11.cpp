@@ -20,7 +20,8 @@ int arr[a];
 for (int i = 0; i < a; i++) cin >> arr[i];
 int val;
 cin >> val;
-int newSize = removeValue(arr, a, val);
+
+    int newSize = removeValue(arr, a, val);
 for (int i = 0; i < newSize; i++) cout << arr[i] << (i == newSize - 1 ? " " : " ");
     return 0;
 }

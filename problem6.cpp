@@ -8,6 +8,7 @@ if (p == nullptr) {
 }
 }
 
+
 int main() {
     string input1, input2;
     cin >> input1 >> input2;
