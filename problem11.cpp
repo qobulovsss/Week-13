@@ -12,7 +12,6 @@ int removeValue(int* arr, int size, int val) {
     }
     return write - arr;
 }
-
 int main() {
 int a;
 cin >> a;

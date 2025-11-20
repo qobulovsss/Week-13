@@ -9,7 +9,6 @@ for (int i = 0; i < size; i++) {
 }
     *result = sum / size;
 }
-
 int main() {
 int size;
 cout << "Enter the size of numbers: ";

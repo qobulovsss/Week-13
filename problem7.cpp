@@ -10,7 +10,6 @@ for (int* ptr = arr + 1; ptr < arr + size; ptr++) {
 }
 return maxPtr;
 }
-
 int main() {
 int size;
 cin >> size;

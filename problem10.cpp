@@ -25,7 +25,6 @@ while (ptr2 < b + m) {
     ptr2++;
 }
 }
-
 int main() {
 int n, m;
 cout << "Enter size of the first array: ";
