@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 int* findMax(int* arr, int size){
 if (size <= 0) return nullptr;

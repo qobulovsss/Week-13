@@ -1,17 +1,18 @@
 #include <iostream>
 using namespace std;
 int removeValue(int* arr, int size, int val) {
-int* write = arr;
-int* read = arr;
-for (int i = 0; i < size; i++) {
-    if (*read != val) {
-        *write = *read;
-        write++;
+    int* write = arr;
+    int* read = arr;
+    for (int i = 0; i < size; i++) {
+        if (*read != val) {
+            *write = *read;
+            write++;
+        }
+        read++;
     }
-    read++;
-}
     return write - arr;
 }
+
 int main() {
 int a;
 cin >> a;

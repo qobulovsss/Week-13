@@ -10,7 +10,6 @@ bool identical(const int* a, int** bptr, int size) {
     }
     return true;
 }
-
 int main() {
     int size;
     cin >> size;

@@ -10,6 +10,7 @@ for (int j = 0; j < c; j++) {
 }
     return sum;
 }
+
 int main() {
 int r, c;
 cout << "Enter rows and columns of matrix: ";
